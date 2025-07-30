@@ -1,5 +1,3 @@
-#pragma once
-
 #ifndef NODESYS_EVENTDISPATCHER
 #define NODESYS_EVENTDISPATCHER
 

@@ -1,9 +1,6 @@
-#pragma once
-
 #ifndef NODESYS_NUMBERDISPATCHER_H
 #define NODESYS_NUMBERDISPATCHER_H
 
-#include <iostream>
 #include "EventDispatcher.h"
 
 using namespace std;

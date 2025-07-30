@@ -1,9 +1,6 @@
-#pragma once
-
 #ifndef NODESYS_SUMDISPATCHER_H
 #define NODESYS_SUMDISPATCHER_H
 
-#include <iostream>
 #include "EventDispatcher.h"
 
 using namespace std;

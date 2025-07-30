@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Network.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="NumberDispatcher.cpp" />
     <ClCompile Include="Random.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="Network.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="NumberDispatcher.h" />
     <ClInclude Include="Random.h" />

@@ -1,14 +1,8 @@
-#pragma once
-
 #ifndef NODESYS_NODE_H
 #define NODESYS_NODE_H
 
-#include <iostream>
-#include <utility>
 #include <unordered_map>
 #include "EventDispatcher.h"
-#include "SumDispatcher.h"
-#include "Random.h"
 
 using namespace std;
 
@@ -16,8 +10,7 @@ namespace NodeSys
 {
 	class Node
 	{
-	protected:
-		
+	protected:	
 		string name;
 		
 		unordered_map<Node *, shared_ptr<EventDispatcher>> subscribers;
@@ -32,9 +25,9 @@ namespace NodeSys
 
 		virtual int generateEvent() = 0;
 
-		void subscribe(Node* neighbor, shared_ptr<EventDispatcher> handler);
+		void subscribe(Node * neighbor, shared_ptr<EventDispatcher> handler);
 
-		void unsubscribe(Node* neighbor);
+		void unsubscribe(Node * neighbor);
 
 		void notify(int data);
 

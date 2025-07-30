@@ -1,3 +1,4 @@
+#include <iostream>
 #include "SumDispatcher.h"
 
 void NodeSys::SumDispatcher::Handle(int data, const string &sender, const string &receiver)
