@@ -39,6 +39,10 @@ namespace NodeSys
 		const string& getName() const { return name; }
 
 		bool hasNoSubsribe() const { return subscribers.empty(); }
+
+		void createAndSubscribeNewNode();
+
+		virtual ~Node() = default;
 	};
 };
 
