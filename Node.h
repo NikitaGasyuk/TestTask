@@ -7,6 +7,8 @@
 #include <utility>
 #include <unordered_map>
 #include "EventDispatcher.h"
+#include "SumDispatcher.h"
+#include "Random.h"
 
 using namespace std;
 
